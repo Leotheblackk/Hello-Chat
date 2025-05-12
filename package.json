@@ -1,0 +1,12 @@
+{
+  "name": "hello-chat",
+  "version": "1.0.0",
+  "description": "Web3 social media DApp on Base chain",
+  "scripts": {
+    "deploy": "npx hardhat run scripts/deploy.js --network base"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "hardhat": "^2.12.0"
+  }
+}
